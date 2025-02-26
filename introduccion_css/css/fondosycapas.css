@@ -1,0 +1,102 @@
+/* Estilos para la primera <ul> */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul.navbar li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: gainsboro;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ejemplo de fondo */
+.ejemplo-fondo {
+    background-color: #e0f7fa;
+    background-image: url('https://via.placeholder.com/150');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    padding: 20px;
+    color: #00796b;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ejemplo de opacidad */
+.ejemplo-opacity {
+    background-color: #ffccbc;
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #d84315;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

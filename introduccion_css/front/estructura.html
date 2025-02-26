@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de CSS</title>
+    <link rel="stylesheet" href="../css/estilo2.css">
+</head>
+<body>
+    <header>
+        <aside><img src="../images/logo51_intecap2.png" alt="" width="75px"></aside>
+        <h1>Estructura de Css</h1>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Regrear al inicio</a></li>
+            <li><a href="../front/colores.html">Colores</a></li>
+            <li><a href="../front/bordes.html">Bordes</a></li>
+            <li><a href="../front/sombreo.html">Sombreo en css</a></li>
+            <li><a href="../front/fondosycapas.html">Fondos y capacidad</a></li>
+        </ul>
+    </nav>
+    <section>
+        <!--Segunda lista ul con clase secundaria -->
+        <ul class="secundaria">
+            <li>Estructura de css</li>
+                <ul class="tercera">
+                    <li>Selector: Es el elemento HTML al que se aplicarán los estilos. Puede ser una etiqueta, una clase, un ID, etc.
+                        <br>
+                        Ejemplo: h1, .clase, #id.
+                    </li>
+                    <br>
+                    <li>
+                        Propiedad: Es la característica que deseas cambiar del selector, como el color, el tamaño, el margen, etc.
+                            <br>
+                            Ejemplo: color, font-size, margin.
+                    </li>
+                    <br>
+                    <li>
+                        Valor: Es el valor que se le asigna a la propiedad.
+                        <br>
+                            Ejemplo: red, 20px, 10%.
+                    </li>
+                    <br>
+                    <p>Ejemplo Completo </p>
+                    <pre><code>
+                        h1 {
+                            color: blue;
+                            font-size: 24px;
+                        }
+                    </code></pre>
+                </ul>
+            <li>Modelo de cajas en Css</li>
+                <ul class="cuarta">
+                    <li>El modelo de cajas es un concepto fundamental en CSS que describe cómo se estructuran y se dimensionan los elementos en una página web. Cada elemento HTML se considera una "caja" compuesta por cuatro partes</li>
+                    <br>
+                        <ol>
+                            <li>Contenido (Content): El área donde se muestra el contenido (texto, imágenes, etc.).</li>
+                            <br>
+                            <li>Relleno (Padding): Espacio entre el contenido y el borde.</li>
+                            <br>
+                            <li>Borde (Border): Línea que rodea el contenido y el relleno.</li>
+                            <br>
+                            <li>Margen (Margin): Espacio exterior que separa el elemento de otros elementos.</li>
+                        </ol>
+                    <p>Ejemplo con codigo</p>
+                    <pre><code>
+                        div {
+                            width: 200px;
+                            padding: 20px;
+                            border: 5px solid black;
+                            margin: 10px;
+                        }
+                    </code></pre>
+                </ul>
+            <li>Elementos de linea y Elementos de bloque</li>
+            <br>
+                <ol>
+                    <li>Elementos de linea</li>
+                    <br>
+                        <ul>
+                            <li>Ocupan todo el ancho disponible de su contenedor.</li>
+                            <br>
+                            <li>Comienzan en una nueva línea.</li>
+                            <br>
+                            <li>Ejemplos: div , p , h1 , a , h6 , ul , li </li>
+                            <p>
+                                Ejemplo 
+                            </p>
+                            <pre><code>
+                                &lt;div&gt;Este es un elemento de bloque.&lt;/div&gt;
+                                &lt;p&gt;Este es otro elemento de bloque.&lt;/p&gt;
+                            </code></pre>
+                        </ul>
+                    <br>
+                    <li>Elementos de bloque </li>
+                    <br>
+                        <ul>
+                            <li>Ocupan solo el espacio necesario para su contenido.</li>
+                            <li>No comienzan en una nueva línea.</li>
+                            <li>Ejemplos:   span , a , strong , em , img </li>
+                            <br>
+                            <p>Ejemplo</p>
+                            <pre><code>
+                                &lt;span&gt;Este es un elemento de línea.&lt;/span&gt;
+                                &lt;a href="#"&gt;Este es un enlace (también de línea).&lt;/a&gt;
+                            </code></pre>
+                        </ul>
+                </ol>
+        </ul>
+    </section>
+    <footer></footer>
+</body>
+</html>

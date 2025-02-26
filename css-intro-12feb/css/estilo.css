@@ -1,0 +1,26 @@
+p{
+    background-color: darkgray;
+    color: crimson;
+    text-align: center;
+
+}
+
+/*. Es para las clases en html se agrega la palabra class */
+.pie{
+    color: blue;
+}
+
+/*  " # " es para los id en html se agrega la palabra id="pie" */ 
+#pie{
+    color: blue;
+    background-color: black;
+
+}
+nav>p{
+    color: gold;
+    background-color: pink;
+}
+body{
+    background-color: green;
+    color: brown;
+}

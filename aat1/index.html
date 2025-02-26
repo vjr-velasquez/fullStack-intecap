@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio</title>
+    <style>
+        .custom-table {
+            width: 70%; /* Aumenta el ancho de la tabla */
+            border-collapse: separate;
+            border-spacing: 10px; /* Espaciado entre las celdas */
+            margin: auto;
+        }
+
+        .custom-table td {
+            padding: 0; /* Elimina el padding para que las imágenes ocupen todo el espacio */
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Colores para reflejar el diseño de la imagen */
+        .big { background-color: #4ac1e0; width: 60%; height: 300px; } /* Aumenta la altura */
+        .small1 { background-color: #11002b; width: 20%; height: 150px; } /* Aumenta la altura */
+        .small2 { background-color: #ffc107; width: 20%; height: 150px; } /* Aumenta la altura */
+        .medium { background-color: #0057b8; width: 40%; height: 150px; } /* Aumenta la altura */
+
+        /* Estilo para las imágenes */
+        .custom-table img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor sin distorsionarse */
+        }
+
+        /* Estilo para el footer */
+        footer {
+            background-color: #87CEEB; /* Azul claro */
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+
+        /* Estilo para la barra de navegación */
+        .nav-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .nav-table td {
+            padding: 15px;
+        }
+
+        .nav-table .productos {
+            background-color: #4CAF50; /* Verde */
+        }
+
+        .nav-table .tienda {
+            background-color: #2196F3; /* Azul */
+        }
+
+        .nav-table .registrarse {
+            background-color: #f44336; /* Rojo */
+        }
+
+        .nav-table a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+            font-size: 20px; /* Aumenta el tamaño de la fuente */
+            font-family: 'Arial', sans-serif; /* Cambia la fuente */
+        }
+
+        .nav-table a:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/bannerm.webp" width="100%" height="500px">
+    </header>
+    <nav>
+        <table class="nav-table">
+            <tr>
+                <td class="productos"><a href="productosyservicios.html">Productos/Servicios</a></td>
+                <td class="tienda"><a href="tienda.html">Tienda en línea</a></td>
+                <td class="registrarse"><a href="login.html">Registrarse</a></td>
+            </tr>
+        </table>
+    </nav>
+    <br>
+
+    <section>
+        <table class="custom-table">
+            <tr>
+                <td rowspan="2" class="big"><img src="images/index1.webp" alt=""></td>
+                <td class="small1"><img src="images/index2.webp" alt=""></td>
+                <td class="small2"><img src="images/index3.webp" alt=""></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="medium"><img src="images/index4.webp" alt=""></td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>PBX : xxx Direccion : xxxx  Carnet: 2025-000708  Nombre: Victor Hugo Velasquez</p>
+    </footer>
+</body>
+</html>

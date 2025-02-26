@@ -1,0 +1,87 @@
+/* Estilos para la primera <ul> */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul.navbar li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: gainsboro;
+}
+
+/* Lista secundaria */
+ul.secundaria {
+    list-style-type: square;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+ul.secundaria li {
+    color: #2b6cb0;
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+}
+ul.secundaria li::before {
+    color: #2b6cb0;
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+}
+
+/* Lista tercera */
+ul.tercera {
+    list-style-type: disc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+ul.tercera li {
+    color: #ff5722;
+    font-style: italic;
+    padding: 8px 0;
+}
+ul.tercera li:hover {
+    background-color: #ffe0b2;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+/* Lista cuarta */
+ul.cuarta {
+    list-style-type: circle;
+    padding: 15px;
+    margin: 10px;
+    background-color: #e0ffe0;
+    border: 2px dashed #008000;
+    border-radius: 12px;
+}
+ul.cuarta li {
+    color: #2f4f4f;
+    font-family: "Courier New", monospace;
+    padding-left: 20px;
+    text-transform: uppercase;
+    transition: transform 0.3s;
+}
+ul.cuarta li:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,162 @@
+/* Estilos para la primera <ul> */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul.navbar li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: gainsboro;
+}
+/* Estilos para la primera <ol> */
+ol {
+    list-style-type: none; /* Elimina los números por defecto */
+    counter-reset: item; /* Inicia un contador para los números personalizados */
+    padding-left: 0; /* Elimina el padding por defecto */
+    margin-left: 0;
+}
+
+ol li {
+    counter-increment: item; /* Incrementa el contador para cada ítem */
+    margin-bottom: 12px; /* Espacio entre ítems */
+    padding: 15px; /* Espacio interno */
+    background-color: #e3f2fd; /* Fondo azul claro */
+    border: 2px solid #1e88e5; /* Borde sólido azul */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #1e1e1e; /* Color del texto */
+}
+
+ol li::before {
+    content: counter(item); /* Muestra el número del contador */
+    background-color: #1e88e5; /* Fondo azul oscuro */
+    color: white; /* Color del número */
+    font-weight: bold; /* Texto en negrita */
+    padding: 8px 12px; /* Espacio interno del número */
+    border-radius: 50%; /* Forma circular */
+    margin-right: 12px; /* Espacio entre el número y el texto */
+    font-size: 14px;
+    display: inline-block; /* Mantiene el número alineado */
+    min-width: 30px; /* Asegura el tamaño mínimo del número */
+    text-align: center;
+}
+
+/* Estilo para la segunda <ol> */
+
+ol.secundaria {
+    list-style-type: none; /* Elimina los números predeterminados */
+    counter-reset: item; /* Inicia el contador de ítems */
+    padding-left: 0; /* Sin sangría en el borde izquierdo */
+    margin-left: 0;
+}
+
+ol.secundaria li {
+    counter-increment: item; /* Incrementa el contador */
+    margin-bottom: 15px; /* Espacio entre ítems */
+    padding: 15px; /* Espacio interno */
+    background: linear-gradient(135deg, #e0f7fa, #80deea); /* Fondo con degradado */
+    border: 2px solid #00acc1; /* Borde sólido con color */
+    border-radius: 15px; /* Bordes redondeados */
+    font-family: Arial, sans-serif; /* Fuente sans-serif */
+    font-size: 16px; /* Tamaño de texto */
+    color: #004d40; /* Color de texto */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto de elevación */
+}
+
+ol.secundaria li::before {
+    content: counter(item); /* Muestra el número */
+    font-weight: bold; /* Números en negrita */
+    font-size: 18px; /* Tamaño del número */
+    background: linear-gradient(135deg, #00acc1, #00838f); /* Fondo de número con degradado */
+    color: white; /* Color del número */
+    padding: 10px 14px; /* Espaciado interno */
+    border-radius: 50%; /* Forma circular */
+    margin-right: 10px; /* Espacio entre número y texto */
+    display: inline-block; /* Muestra el número en la misma línea */
+    min-width: 40px; /* Asegura un ancho mínimo para los números */
+    text-align: center; /* Centra el número */
+}
+
+/* Estilo para la segunda <ul> */
+
+ul.numerodos {
+    list-style-type: none; /* Elimina los puntos por defecto */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0;
+}
+
+ul.numerodos li {
+    margin-bottom: 15px; /* Espacio entre ítems */
+    padding: 15px; /* Espaciado interno */
+    background-color: #e3f2fd; /* Fondo suave */
+    border: 3px solid transparent; /* Borde base transparente */
+    border-image: linear-gradient(135deg, #42a5f5, #1565c0); /* Borde degradado */
+    border-image-slice: 1; /* Aplica el degradado completo */
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: Arial, sans-serif; /* Fuente sans-serif */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #0d47a1; /* Color del texto */
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+ul.numerodos p {
+    font-family: Arial, sans-serif; /* Fuente consistente con la lista */
+    font-size: 14px; /* Tamaño más pequeño para el texto explicativo */
+    color: #1565c0; /* Color más oscuro */
+    margin-top: 15px; /* Espaciado superior */
+}
+/* Estilo para ultima <ul> */
+
+ul.numero-tres {
+    list-style-type: none; /* Quita los estilos de lista predeterminados */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para los elementos <li> de la lista principal */
+ul.numero-tres > li {
+    background: linear-gradient(135deg, #ffcc80, #ff9800); /* Fondo degradado cálido */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px; /* Bordes redondeados */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilos para la lista anidada */
+ul.numero-tres ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Estilos para los <li> de la lista anidada */
+ul.numero-tres ul li {
+    background: #fff3e0; /* Fondo claro */
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 2px solid #ff9800; /* Borde sólido */
+    border-radius: 10px 25px 10px 25px; /* Bordes alternados redondeados */
+    font-size: 14px;
+    color: #ff6f00; /* Color de texto naranja */
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Sombra más ligera */
+}

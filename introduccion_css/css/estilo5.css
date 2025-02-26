@@ -1,0 +1,105 @@
+/* Estilos para la primera <ul> */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul.navbar li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: gainsboro;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #42a5f5;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Secciones */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sombra para el texto */
+.sombra-texto {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Sombra para la caja */
+.sombra-caja {
+    padding: 20px;
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer h3 {
+    color: #666;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #42a5f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

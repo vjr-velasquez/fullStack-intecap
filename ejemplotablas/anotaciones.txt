@@ -1,0 +1,8 @@
+----> anotaciones del dia lunes 3 de febrero 
+
+table [border = "1"]>tr*3>td*3 = para la creacion de una tabla de 3x3
+
+---> tr>td[width="75px"]*4{$} 
+
+este comando funciona para darle estetica  a la tabla 
+con sus divisiones

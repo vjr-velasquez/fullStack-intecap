@@ -1,0 +1,59 @@
+/* Estilos para <ul> */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: gainsboro;
+}
+
+/* Estilos para <ol> */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+ol li {
+    margin-bottom: 10px; /* Espacio entre ítems */
+    float: none; /* Asegurar que los ítems estén uno debajo del otro */
+    clear: both; /* Evitar conflictos con otros estilos flotantes */
+}
+
+/* Contenedor para imágenes alineadas */
+.image-container {
+    display: flex; /* Activar flexbox */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes */
+    align-items: center; /* Alinear verticalmente si es necesario */
+}
+
+.image-container img {
+    max-width: 45%; /* Controlar el ancho para evitar que se desborden */
+    height: auto; /* Mantener la proporción de la imagen */
+    border: 1px solid #ccc; /* Opcional: borde para hacer las imágenes más visibles */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+}
+body{
+    background-color: aquamarine;
+}
+

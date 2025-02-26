@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiendas en Línea</title>
+    <style>
+        /* Estilo para el footer */
+        footer {
+            background-color: #87CEEB; /* Azul claro */
+            color: white;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Estilo para la barra de navegación */
+        .nav-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .nav-table td {
+            padding: 15px;
+        }
+
+        .nav-table .productos {
+            background-color: #4CAF50; /* Verde */
+        }
+
+        .nav-table .tienda {
+            background-color: #2196F3; /* Azul */
+        }
+
+        .nav-table .registrarse {
+            background-color: #f44336; /* Rojo */
+        }
+
+        .nav-table a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+        }
+
+        /* Estilo para el contenedor de tiendas */
+        .tienda-container {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f0f8ff; /* Azul claro */
+        }
+
+        .mapa {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        .info {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .info td {
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <table class="nav-table">
+                <tr>
+                    <td class="productos"><a href="index.html">Inicio</a></td>
+                    <td class="tienda"><a href="productosyservicios.html">Productos/Servicios</a></td>
+                    <td class="registrarse"><a href="login.html">Registrarse</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <h2 style="text-align: center;">Nuestras Tiendas</h2>
+
+    <!-- Tienda 1 -->
+    <h2 style="text-align: center;">Tienda 1</h2>
+    <div class="tienda-container">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123537.79636695726!2d-90.57684860172628!3d14.624343019416543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a13c91d3040d%3A0xc41e0810dd744602!2sUniversidad%20de%20San%20Carlos%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1739202303195!5m2!1ses!2sgt" allowfullscreen="" loading="lazy"></iframe>
+        <div class="info">
+            <h3>Universidad de San Carlos de Guatemala</h3>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><strong>Teléfono:</strong> 2418 8000</li>
+                            <li><strong>Correo electrónico:</strong> correspondenciasecretariogeneral@correoe.usac.edu.gt</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><strong>Dirección:</strong> 11 Avenida, Cdad. de Guatemala</li>
+                            <li><strong>Horario:</strong> Lunes, miércoles y viernes de 9:00 a 13:00 horas</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Tienda 2 -->
+    <h2 style="text-align: center;">Tienda 2</h2>
+    <div class="tienda-container">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5504212182914!2d-90.51522842489335!3d14.624668085864574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a23a6a8525b1%3A0xd33a1c274d5f3294!2sIntecap%20TIC&#39;S%20zona%2005!5e0!3m2!1ses!2sgt!4v1739202909454!5m2!1ses!2sgt" allowfullscreen="" loading="lazy"></iframe>
+        <div class="info">
+            <h3>Intecap TIC'S zona 05</h3>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><strong>Teléfono:</strong> 2410 5555</li>
+                            <li><strong>Correo electrónico:</strong> info3d@intecap.edu.gt</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><strong>Dirección:</strong> Calle Doroteo Guamuch Flores 8-79 zona 5, Guatemala</li>
+                            <li><strong>Horario de atención:</strong> 8:00 a 16:00</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>PBX : xxx Dirección : xxxx  Carnet: 2025-000708  Nombre: Victor Hugo Velasquez</p>
+    </footer>
+</body>
+</html>

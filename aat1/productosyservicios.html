@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos y Servicios </title>
+    <style>
+        /* Estilo para el footer */
+        footer {
+            background-color: #87CEEB; /* Azul claro */
+            color: white;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+
+        /* Estilo para la barra de navegación */
+        .nav-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .nav-table td {
+            padding: 15px;
+        }
+
+        .nav-table .productos {
+            background-color: #4CAF50; /* Verde */
+        }
+
+        .nav-table .tienda {
+            background-color: #2196F3; /* Azul */
+        }
+
+        .nav-table .registrarse {
+            background-color: #f44336; /* Rojo */
+        }
+
+        .nav-table a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+        }
+
+        .nav-table a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilo para centrar la tabla */
+        .center-table {
+            margin: 20px auto; /* Centra la tabla horizontalmente */
+            text-align: center;
+            display: block; /* Hace que la tabla se comporte como un bloque */
+            width: 80%; /* Ajusta el ancho según sea necesario */
+        }
+
+        /* Estilo para la sección de productos */
+        .products-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+            gap: 20px; /* Espacio entre las tablas */
+            justify-items: center; /* Centra las tablas horizontalmente */
+            margin: 20px auto; /* Centra la sección horizontalmente */
+            width: 80%; /* Ajusta el ancho según sea necesario */
+        }
+
+        .products-section table {
+            width: 100%; /* Asegura que las tablas ocupen todo el espacio disponible */
+            border: 1px solid #ddd; /* Añade un borde ligero a las tablas */
+            border-collapse: collapse;
+        }
+
+        .products-section td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Nueva clase para ajustar el tamaño de las imágenes */
+        .adjusted-image {
+            width: 100%; /* Ajusta el ancho al 100% del contenedor */
+            height: 100%; /* Ajusta la altura al 100% del contenedor */
+            object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <table class="nav-table">
+            <tr>
+                <td class="productos"><a href="index.html">Inicio</a></td>
+                <td class="tienda"><a href="tienda.html">Tienda en línea</a></td>
+                <td class="registrarse"><a href="login.html">Registrarse</a></td>
+            </tr>
+        </table>
+    </nav>
+    <h2 style="text-align: left;">
+        Productos / Servicios
+    </h2>
+    <!-- La primera tabla con su unica fila y sus 4 columnas de los primeros 4 products-->
+    <section style="display: flex;">
+        <br>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m1.jfif" alt="Producto 1" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m2.png" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m3.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m4.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <!--Esta la segunda tabla con una fila y 4 columnas con los 4 productos-->
+    <section style="display: flex;">
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m5.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m6.webp" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m7.webp" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m8.webp" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section style="display: flex;">
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m9.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m10.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m11.jfif" alt="" class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <table border="1" class="center-table" style="text-align: center; margin: 20px; width: 25%;">
+            <tr>
+                <td>
+                    <img src="images/m12.jfif" alt=""class="adjusted-image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong>Nombre</strong></li>
+                        <li>Precio Q xxxx</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+    </section>
+    <footer>
+        <p>PBX : xxx Direccion : xxxx  Carnet: 2025-000708  Nombre: Victor Hugo Velasquez</p>
+    </footer>
+
+</body>
+</html>

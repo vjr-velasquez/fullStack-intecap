@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+}
+.fondo{
+    background-color: aqua;
+    color: bisque;
+}
+h2+p{
+    color: red;
+}

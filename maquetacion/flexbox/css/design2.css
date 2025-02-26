@@ -1,0 +1,39 @@
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: yellow;
+    height: 350px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: none;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* Colores para cada div */
+.flex-container > div:nth-child(1){
+    background-color: orange;
+}
+.flex-container > div:nth-child(2){
+    background-color: grey;
+}
+.flex-container > div:nth-child(3){
+    background-color: orange;
+}
+.flex-container>div:nth-child(4){
+    background-color: grey;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}

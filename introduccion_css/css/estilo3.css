@@ -1,0 +1,93 @@
+/* Estilos para la primera <ul> */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+ul.navbar li {
+    float: left; /* Solo aplica a los <li> dentro de <ul> */
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: gainsboro;
+}
+
+/* Estilo para <ol> */
+
+ol.animado {
+    list-style-type: decimal-leading-zero;
+    padding: 15px;
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 16px; /* Ajuste del tamaño de fuente */
+}
+
+ol.animado li {
+    padding: 8px; /* Reducir el padding */
+    margin: 4px 0; /* Reducir el margen */
+    transition: background-color 0.3s, padding-left 0.3s;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px; /* Tamaño de fuente más legible */
+    color: #333; /* Color del texto */
+}
+
+ol.animado li:hover {
+    background-color: #b3e5fc;
+    padding-left: 10px; /* Efecto hover menos agresivo */
+    font-weight: bold;
+}
+/* Estilo general para <pre> */
+pre {
+    background-color: #2d2d2d; /* Fondo oscuro para mejor contraste */
+    color: #ffffff; /* Texto blanco */
+    border-radius: 8px;
+    padding: 15px;
+    overflow-x: auto; /* Permite desplazamiento horizontal si el código es largo */
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para dar profundidad */
+    margin-bottom: 20px;
+    border: 1px solid #444;
+}
+
+/* Estilo para la etiqueta <code> dentro de <pre> */
+code {
+    color: #f8f8f2;
+    font-size: 14px;
+    font-family: "Courier New", monospace;
+}
+
+/* Coloreado de sintaxis personalizado */
+code span.keyword {
+    color: #ff79c6;
+    font-weight: bold;
+}
+
+code span.selector {
+    color: #8be9fd;
+}
+
+code span.property {
+    color: #50fa7b;
+}
+
+code span.value {
+    color: #bd93f9;
+}
+
+code span.comment {
+    color: #6272a4;
+    font-style: italic;
+}

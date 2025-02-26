@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        /* Estilo del encabezado */
+        .encabezado {
+            width: 100%;
+            padding: 10px;
+            font-weight: bold;
+            background: #f0f0f0;
+            border-bottom: 3px solid #ccc;
+            text-align: center;
+        }
+
+        /* Estilo para la barra de opciones */
+        .sidebar {
+            width: 100%;
+            padding: 10px;
+            background: #444;
+            border-bottom: 3px solid #ccc;
+            text-align: center;
+        }
+
+        .sidebar a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: #666;
+            color: #fff;
+        }
+
+        /* Contenedor principal con dos columnas */
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        /* Estilo para las columnas */
+        .columna {
+            width: 48%;
+        }
+
+        /* Estilo para los elementos de la columna izquierda */
+        .caja {
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Estilo para los mapas de ubicación */
+        .mapa {
+            border: 2px solid black;
+            padding: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .mapa iframe {
+            width: 100%;
+            height: 300px; /* Ajusta la altura según sea necesario */
+        }
+
+        .mapa-contenedor {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .mapa-info {
+            margin-left: 20px;
+            text-align: left;
+            width: 50%;
+        }
+
+        /* Estilo para el footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f0f0f0;
+            border-top: 3px solid #ccc;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <nav>
+        <a href="../index.html">
+            <img src="../images/flecha.png" alt="Regresar" width="50" height="50">
+        </a>
+    </nav>
+
+    <header>
+        <img src="../images/banner.jpg" alt="">
+        <div class="encabezado">Ubicación</div>
+    </header>
+
+    <div class="sidebar">
+        <a href="#">Actividad 1</a>
+        <a href="#">Actividad 2</a>
+        <a href="#">Actividad 3</a>
+        <a href="#">Ubicación</a>
+    </div>
+
+    <div class="contenedor">
+        <!-- Columna Izquierda -->
+        <div class="columna">
+            <div class="caja">
+                <audio src="audios/energy.mp3" autoplay controls loop></audio>
+            </div>
+
+            <div class="caja">
+                <h3>Iniciar Sesión</h3>
+                <form>
+                    <label>Nombre de usuario</label>
+                    <input type="text"><br><br>
+                    <label>Contraseña</label>
+                    <input type="password"><br><br>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+
+            <div class="caja">
+                <h3>Video de YouTube</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/T1intZyhXDU?si=Hmsiqig-ovc5GX9x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="columna">
+            <div class="mapa-contenedor">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123537.79636695726!2d-90.57684860172628!3d14.624343019416543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a13c91d3040d%3A0xc41e0810dd744602!2sUniversidad%20de%20San%20Carlos%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1739202303195!5m2!1ses!2sgt" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="mapa-info">
+                    <h3>Universidad de San Carlos de Guatemala</h3>
+                    <ul>
+                        <li>Teléfono: 2418 8000</li>
+                        <li>Dirección: 11 Avenida, Cdad. de Guatemala</li>
+                        <li>Correo electrónico : correspondenciasecretariogeneral@correoe.usac.edu.gt</li>
+                        <li>Lunes, miércoles y viernes de 9:00 a 13:00 horas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapa-contenedor">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5504212182914!2d-90.51522842489335!3d14.624668085864574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a23a6a8525b1%3A0xd33a1c274d5f3294!2sIntecap%20TIC&#39;S%20zona%2005!5e0!3m2!1ses!2sgt!4v1739202909454!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="mapa-info">
+                    <h3>Intecap TIC'S zona 05</h3>
+                    <ul>
+                        <li>Teléfono: 2410 5555</li>
+                        <li>Dirección: Calle Doroteo Guamuch Flores 8-79 zona 5, Guatemala</li>
+                        <li>Correo electrónico : info3d@intecap.edu.gt</li>
+                        <li>Horario de atención : 8:00 a 16:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mapa-contenedor">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.531729152572!2d-90.53850302489334!3d14.625731185863629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a1e448821921%3A0xf0a2a940ad91e241!2sFundaci%C3%B3n%20Kinal!5e0!3m2!1ses!2sgt!4v1739205520872!5m2!1ses!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="mapa-info">
+                    <h3>Fundacion Kinal</h3>
+                    <ul>
+                        <li>Teléfono: 2216 0000</li>
+                        <li>Dirección : 6A Avenida 13-54, Cdad. de Guatemala 01007</li>
+                        <li>Correo electrónico: infoets@kinal.org.gt. </li>
+                        <li>5:00 am a 5:00 pm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>Created by: Victor Hugo Velasquez</footer>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.contanier{
+    width: 1440px;
+    margin: auto;
+}
+header{
+    background-color: blue;
+    height: 350px;
+}
+main{
+    display: flex;
+    height: 900px;
+}
+nav, aside{
+    width: 25%;
+}
+nav{
+    background-color: aqua;
+}
+aside{
+    background-color: bisque;
+}
+section{
+    width: 50%;
+}
+footer{
+    height: 50px;
+    background-color: violet;
+}

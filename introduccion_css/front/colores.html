@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores en css</title>
+    <link rel="stylesheet" href="../css/estilo3.css">
+</head>
+<body>
+    <header>
+        <aside><img src="../images/logo51_intecap2.png" alt="" width="75px"></aside>
+        <h1>
+            Colores en css
+        </h1>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Regrear al inicio</a></li>
+            <li><a href="../front/estructura.html">Estructuras</a></li>
+            <li><a href="../front/bordes.html">Bordes</a></li>
+            <li><a href="../front/sombreo.html">Sombreo en css</a></li>
+            <li><a href="../front/fondosycapas.html">Fondos y capacidad</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h3 style="text-align: center;">Formas de especificar colores en Css</h3>
+        <br>
+        <ol class="animado">
+            <li><strong>Nombres de colores</strong></li>
+                <br>
+                <ul>
+                    <li>CSS tiene una lista de 140 nombres de colores predefinidos (como red, blue, green, etc.).</li>
+                    <br>
+                    <p><strong>Ejemplo</strong></p>
+                    <br>
+                    <pre><code>
+                        p {
+                            color: red;
+                        }
+                    </code></pre>
+                </ul>
+            <li><strong>RGB (RED , GREEN , BLUE)</strong></li>
+                <br>
+                <ul>
+                    <li>Los colores se definen usando valores para rojo, verde y azul, en un rango de 0 a 255.</li>
+                    <br>
+                    <li>También se puede usar rgba, donde "a" es la transparencia (de 0 a 1).</li>
+                    <br>
+                    <p><strong>Ejemplo</strong></p>
+                    <br>
+                    <pre><code>
+                        p {
+                            color: rgb(255, 0, 0); /* Rojo */
+                            background-color: rgba(0, 255, 0, 0.5); /* Verde con 50% de transparencia */
+                        }
+                    </code></pre>
+                </ul>
+            <li><strong>HEX (Hexadecimal)</strong></li>
+            <br>
+                <ul>
+                    <li>Los colores se definen usando un código hexadecimal de 6 dígitos, que representa los valores de rojo, verde y azul.</li>
+                    <br>
+                    <p><strong>Ejemplo</strong></p>
+                    <br>
+                    <pre><code>
+                        p {
+                            color: #ff0000; /* Rojo */
+                            background-color: #00ff00; /* Verde */
+                        }
+                    </code></pre>
+                </ul>
+            <li><strong>HSL (Hue , Saturation , Lightness )</strong></li>
+            <br>
+                <ul>
+                    <li><strong>Hue (tono)</strong>: Un valor entre 0 y 360 (grados en el círculo cromático).</li>
+                    <li><strong>Saturation (saturación)</strong>: Un porcentaje (0% es gris, 100% es color puro).</li>
+                    <li><strong>Lightness (luminosidad)</strong>: Un porcentaje (0% es negro, 100% es blanco).</li>
+                    <br>
+                    <p><strong>Ejemplo</strong></p>
+                    <pre><code>
+                        p {
+                            color: hsl(0, 100%, 50%); /* Rojo */
+                            background-color: hsla(120, 100%, 50%, 0.5); /* Verde con 50% de transparencia */
+                        }
+                    </code></pre>
+                </ul>
+            <br>
+            <p><strong>Te dejamos aca un ejemplo completo</strong></p>
+            <br>
+            <pre><code>
+                /* Usando nombres de colores */
+                h1 {
+                    color: blue;
+                }
+
+                /* Usando RGB */
+                h2 {
+                    color: rgb(0, 128, 0); /* Verde */
+                }
+
+                /* Usando HEX */
+                h3 {
+                    color: #ffa500; /* Naranja */
+                }
+
+                /* Usando HSL */
+                h4 {
+                    color: hsl(240, 100%, 50%); /* Azul */
+                }
+
+                /* Usando RGBA con transparencia */
+                div {
+                    background-color: rgba(255, 0, 0, 0.3); /* Rojo con 30% de transparencia */
+                }
+
+                /* Usando HSLA con transparencia */
+                p {
+                    background-color: hsla(300, 100%, 50%, 0.7); /* Morado con 70% de transparencia */
+                }
+            </code></pre>
+        </ol>
+    </section>
+    <footer></footer>
+</body>
+</html>
